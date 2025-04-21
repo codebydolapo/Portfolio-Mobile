@@ -1,6 +1,4 @@
-import React, { useEffect, useCallback } from 'react'
-import blogs from '../data/blogs'
-import caseStudies from '../data/caseStudies'
+import React from 'react'
 import projects from '../data/projects'
 
 

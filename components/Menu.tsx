@@ -1,8 +1,5 @@
 import styles from "../styles/menu.module.css"
-import { useEffect, useState } from "react"
-// import { useSelector } from 'react-redux'
-import { BookmarkIcon, HomeIcon, BriefcaseIcon, CogIcon, MicrophoneIcon} from "@heroicons/react/outline"
-import { CheckCircleIcon } from "lucide-react"
+import { BookmarkIcon, HomeIcon, CogIcon, MicrophoneIcon} from "@heroicons/react/outline"
 import Link from "next/link"
 import { useDispatch, useSelector } from 'react-redux'
 import { activateHamburger, deactivateHamburger } from '../reducers/actions'

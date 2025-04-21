@@ -1,8 +1,6 @@
-import { ethers } from "ethers"
 import styles from "../styles/navbar.module.css"
 import { useDispatch, useSelector } from 'react-redux'
 import { activateHamburger, deactivateHamburger } from '../reducers/actions'
-import { useState, useEffect } from "react"
 // import Window from './window'
 // import { addConnectedAddress, removeConnectedAddress } from "../reducers/actions"
 

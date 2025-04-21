@@ -1,5 +1,4 @@
 import React, { useEffect, useCallback } from 'react'
-import blogs from '../data/blogs'
 import { Clock } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
