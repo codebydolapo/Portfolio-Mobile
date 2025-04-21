@@ -12,7 +12,7 @@ function Intro() {
             <div className={`md:w-[100%] md:min-h-[70vh] xs:w-full xs:min-h-[100vh]`}>
                 <div className={`w-full md:h-[60vh] flex flex-col justify-center md:items-center relative xs:h-[30vh] xs:items-start`}>
                     <div className={`w-full h-full overflow-hidden `}>
-                        <img className={`w-full h-auto`} alt='' src='/images/bg.png' />
+                        <img className={`w-full h-auto`} alt='' src='/images/bg.jpeg' />
                     </div>
                     <img className={`md:w-[15rem] md:h-[15rem] rounded-full mx-2 absolute md:bottom-[-5rem] border-[7px] border-white xs:w-[10rem] xs:h-[10rem] xs:bottom-[-1rem]`} alt='' src='/images/me.jpg' />
                 </div>

@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { activateHamburger, deactivateHamburger } from '../reducers/actions'
 import { useState, useEffect } from "react"
 // import Window from './window'
-import shortenAddress from '../utils/shortenAddress'
 // import { addConnectedAddress, removeConnectedAddress } from "../reducers/actions"
 
 

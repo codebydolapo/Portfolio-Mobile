@@ -6,7 +6,6 @@ import { CheckCircleIcon } from "lucide-react"
 import Link from "next/link"
 import { useDispatch, useSelector } from 'react-redux'
 import { activateHamburger, deactivateHamburger } from '../reducers/actions'
-import shortenAddress from "../utils/shortenAddress"
 
 
 function Menu() {

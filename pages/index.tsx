@@ -5,11 +5,8 @@ import Navbar from '../components/Navbar'
 import Menu from '../components/Menu'
 import Intro from '../components/Intro';
 import About from '../components/About'
-import Projects from '../components/Projects'
 import blogs from '../data/blogs'
 import Sliders from '../components/Sliders'
-import caseStudies from '../data/caseStudies'
-import Certifications from '../components/Certifications'
 import Footer from '../components/Footer'
 import projects from '../data/projects'
 
