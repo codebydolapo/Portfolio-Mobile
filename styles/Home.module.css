@@ -1,0 +1,18 @@
+.main {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  /* max-width: 90rem; */
+  /* flex: 1; */
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main::-webkit-scrollbar{
+  display: none;
+  /* color: #f1f5f8 */
+}

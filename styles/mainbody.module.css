@@ -1,0 +1,8 @@
+.mainbody{
+    /* scroll-snap-type: mandatory; */
+    scroll-behavior: smooth;
+}
+
+.mainbody::-webkit-scrollbar{
+    display: none
+}
