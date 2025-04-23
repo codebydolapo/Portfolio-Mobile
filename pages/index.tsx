@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className={`min-w-[100vw] min-h-[100vh] h-auto relative text-[#000000a9] border-2 border-red-700`}>
+      <div className={`min-w-[100vw] min-h-[100vh] w-[100vw] mx-0 h-auto relative text-[#000000a9]`}>
         <Menu />
         <Intro />
         <About/>
