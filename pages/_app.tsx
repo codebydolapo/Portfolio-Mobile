@@ -7,9 +7,9 @@ import { allReducers } from '../reducers/reducers'
 const store = createStore(allReducers)
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Provider store = {store}>
+  return ( <Provider store = {store}>
    <Component {...pageProps} />
-  </Provider>
+  </Provider>)
 }
 
 export default MyApp
