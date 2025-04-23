@@ -1,5 +1,6 @@
 .main {
   min-height: 100vh;
+  min-width: 100vw;
   height: auto;
   width: 100vw;
   /* max-width: 90rem; */
