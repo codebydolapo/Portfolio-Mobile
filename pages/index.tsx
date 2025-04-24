@@ -22,21 +22,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className={`min-w-[100vw] min-h-[100vh] w-[100vw] mx-0 h-auto relative text-[#000000a9]`}>
+      <div className={`min-w-screen min-h-[100vh] mx-0 h-auto relative text-[#000000a9] ${styles.mainbody}`}>
         <Menu />
         <Intro />
-        <About/>
+        <About />
         <Sliders
-        data = {projects}
-        title = {"Projects"}
-        id = {"projects"}
+          data={projects}
+          title={"Projects"}
+          id={"projects"}
         />
-         <Sliders
-        data = {blogs}
-        title = {"Blog Posts"}
-        id = {"blogPosts"}
+        <Sliders
+          data={blogs}
+          title={"Blog Posts"}
+          id={"blogPosts"}
         />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   )

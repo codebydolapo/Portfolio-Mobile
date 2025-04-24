@@ -1,14 +1,10 @@
 .main {
   min-height: 100vh;
-  /* min-width: 100vw; */
   height: auto;
   width: 100vw;
-  /* max-width: 90rem; */
-  /* flex: 1; */
-  /* display: flex; */
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  justify-content: center;
   overflow-y: scroll;
   overflow-x: hidden;
 }
