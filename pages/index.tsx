@@ -15,14 +15,14 @@ const Home: NextPage = () => {
 
 
   return (
-    <div className={`${styles.main} font-montserrat text-[#4b4f56] relative scroll-smooth`}>
+    <div className={`${styles.main} w-screen overflow-y-scroll overflow-x-hidden font-montserrat text-[#4b4f56] scroll-smooth scrollbar-hidden`}>
       <Head>
         <title>codebydolapo</title>
         <meta name="description" content="codebydolapo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <div className={`min-w-screen min-h-[100vh] mx-0 h-auto relative text-[#000000a9] ${styles.mainbody}`}>
+        <Navbar />
         <Menu />
         <Intro />
         <About />

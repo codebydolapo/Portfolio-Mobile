@@ -13,3 +13,23 @@
   display: none;
   /* color: #f1f5f8 */
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 500ms;
+  font-family: "montserrat"
+}
+
+*.no-scrollbar::-webkit-scrollbar{
+  display: none
+  
+}
+
+*.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
