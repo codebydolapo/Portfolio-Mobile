@@ -9,6 +9,7 @@ import blogs from '../data/blogs'
 import Sliders from '../components/Sliders'
 import Footer from '../components/Footer'
 import projects from '../data/projects'
+import Skills from '../components/Skills'
 
 const Home: NextPage = () => {
 
@@ -36,6 +37,7 @@ const Home: NextPage = () => {
           title={"Blog Posts"}
           id={"blogPosts"}
         />
+        {/* <Skills /> */}
         <Footer />
       </div>
     </div>

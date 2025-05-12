@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 
-function Slide({ title, live_link, image, prd_link }: any) {
+function Slide({ title, live_link, image }: any) {
     return (
         <Link href={live_link} passHref={true}>
             <div className={`md:h-[15rem] md:min-w-[28rem] md:w-[28rem] my-2 mr-3 flex justify-end items-start flex-col rounded-xl xs:h-[11rem] xs:min-w-[20rem] xs:w-[20rem] hover:scale-[105%]`}>
@@ -53,13 +53,22 @@ function Sliders({ data, title, id }: any) {
                                         id.toLowerCase() == "projects" ?
                                             <Image width={25} height={25} src={'/icons/git.png'} color='#000' />
                                             :
-                                            <Image width={25} height={25} src={'/icons/medium.png'} color='#000' className='rounded-full'/>
+                                            <Image width={25} height={25} src={'/icons/medium.png'} color='#000' className='rounded-full' />
                                     }
                                 </button>
                             </Link>
                         </div>
                     </div>
-                    <div className={`md:w-[55%] md:h-full flex items-center justify-center xs:w-full xs:h-[50%]`}>
+                    <div className={`md:w-[55%] md:h-full flex items-center justify-center xs:w-full xs:h-[50%] bg-black`}>
+                        {/* {id.toLowerCase() == "projects"
+                            ?
+                            <video className={`h-full object-cover rounded-lg`} autoPlay loop muted>
+                                <source src={"/videos/animax_vid.mp4"} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                            :
+                            <img className={`md:w-auto md:h-full rounded-lg xs:w-full xs:h-auto`} alt="" src={data[0].image} />
+                            } */}
                         <img className={`md:w-auto md:h-full rounded-lg xs:w-full xs:h-auto`} alt="" src={data[0].image} />
                     </div>
                 </div>
@@ -71,6 +80,7 @@ function Sliders({ data, title, id }: any) {
                             live_link={live_link}
                             callToAction={"Read Case Study"}
                             key={title}
+                            id={id}
                         />
                     }
                     )}

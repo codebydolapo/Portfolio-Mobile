@@ -57,10 +57,10 @@ function Menu() {
                         <h1>Blog Posts</h1>
                     </div>
                 </Link>
-                {/* <Link href='/certifications'>
+                {/* <Link href='/skills'>
                     <div className={`${styles.menuDiv}`} onClick={handleBurgerState}>
                         <CheckCircleIcon className={styles.ChevronUpIcon} />
-                        <h1>Certifications</h1>
+                        <h1>skills</h1>
                     </div>
                 </Link> */}
 
