@@ -30,6 +30,7 @@ const Skills = () => {
                         return <SkillCard
                         image = {image}
                         title = {title}
+                        key = {title}
                         />
                     })}
                 </div>
