@@ -17,7 +17,7 @@ function Intro() {
                     <img className={`md:w-[15rem] md:h-[15rem] rounded-full mx-2 absolute md:bottom-[-5rem] border-[7px] border-white xs:w-[10rem] xs:h-[10rem] xs:bottom-[-1rem]`} alt='' src='/images/me.jpg' />
                 </div>
 
-                <div className={`w-full md:h-[40vh] flex flex-col items-center justify-around md:mt-[6rem] xs:min-h-[50vh] mt-4`}>
+                <div className={`w-full md:h-[40vh] flex flex-col items-center justify-around md:mt-[6rem] xs:min-h-[50vh] mt-12`}>
                     <div className={`md:w-[70%] min-h-[5rem] flex items-center justify-center`}>
                         <h1 className={`md:text-[7rem] font-allura font-thin text-[#000] xs:text-7xl text-center`}>Bashorun Dolapo</h1>
                         <img className={`md:w-[5rem] md:visible xs:invisible xs:w-[0rem]`} alt='' src='/icons/verified.jpg' />

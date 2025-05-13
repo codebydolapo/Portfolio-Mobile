@@ -12,7 +12,7 @@ function About() {
     }, [])
 
     return (
-        <div className={`md:min-w-[100%] md:min-h-[100vh] md:h-[100vh] md:mb-0 flex md:flex-row md:border-b-0 pb-5 items-center xs:justify-center xs:min-h-[110vh] xs:h-auto xs:mb-[2rem] xs:flex-col-reverse xs:border-b-[1rem] xs:border-black`} id='about'>
+        <div className={`md:min-w-[100%] md:min-h-[100vh] md:h-[100vh] md:mb-0 flex md:flex-row md:border-b-0 md:mt-0 pb-5 items-center xs:justify-center xs:min-h-[110vh] xs:h-auto xs:mb-[2rem] xs:flex-col-reverse xs:border-b-[1rem] xs:border-black xs:mt-[8rem] md:px-2`} id='about'>
 
             <div className={`md:w-[40%] md:h-full overflow-hidden flex items-center justify-center xs:w-[100%] xs:h-[50%]`}>
                 <div className={`md:w-[30rem] md:h-[30rem] rounded-full relative xs:w-[98%] xs:h-[50%] `}>

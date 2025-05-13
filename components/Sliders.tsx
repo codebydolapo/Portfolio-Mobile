@@ -28,7 +28,7 @@ function Slide({ title, live_link, image }: any) {
 function Sliders({ data, title, id }: any) {
 
     return (
-        <div className={`w-[100%] md:min-h-[120vh] md:h-[110vh] md:border-b-0 md:border-black flex flex-col items-center justify-between md:px-0 xs:min-h-[110vh] xs:h-auto xs:border-b-[1rem] xs:border-black xs:px-2 mt-10`} id={id}>
+        <div className={`w-[100%] md:min-h-[120vh] md:h-[110vh] md:border-b-0 md:border-black flex flex-col items-center justify-between md:px-2 xs:min-h-[110vh] xs:h-auto xs:border-b-[1rem] xs:border-black xs:px-2 mt-10`} id={id}>
             <div className={`w-full h-full flex flex-col border-b-2 mt-[3rem]`}>
                 <div className={`w-full h-[3rem] flex flex-row items-center justify-start px-5 border-b-2 border-grey md:pl-10 xs:pl-2 `}>
                     <h1 className={`md:text-3xl font-extrabold xs:text-xl text-[#000000] underline`}>{title}</h1>

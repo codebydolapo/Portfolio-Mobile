@@ -1,5 +1,5 @@
 import styles from "../styles/menu.module.css"
-import { BookmarkIcon, HomeIcon, CogIcon, MicrophoneIcon} from "@heroicons/react/outline"
+import { BookmarkIcon, HomeIcon, CogIcon, MicrophoneIcon, CheckCircleIcon} from "@heroicons/react/outline"
 import Link from "next/link"
 import { useDispatch, useSelector } from 'react-redux'
 import { activateHamburger, deactivateHamburger } from '../reducers/actions'
@@ -57,12 +57,12 @@ function Menu() {
                         <h1>Blog Posts</h1>
                     </div>
                 </Link>
-                {/* <Link href='/skills'>
+                <Link href='/#skills'>
                     <div className={`${styles.menuDiv}`} onClick={handleBurgerState}>
                         <CheckCircleIcon className={styles.ChevronUpIcon} />
-                        <h1>skills</h1>
+                        <h1>Skills</h1>
                     </div>
-                </Link> */}
+                </Link>
 
             </>}
         </div>

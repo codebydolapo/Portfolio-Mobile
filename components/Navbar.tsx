@@ -22,7 +22,7 @@ function Navbar() {
 
     return (
         hamburgerState ?
-            <div className={`w-full h-[50px] bg-[#fff] flex flex-row fixed top-0 z-[5]`}>
+            <div className={`w-full h-[50px] bg-[#fff] flex flex-row fixed top-0 z-[5] `}>
                 <div className={`w-1/2 h-full px-2 flex flex-row justify-start items-center`}>
                     <img className={`md:h-[40px] md:w-[40px] rounded-full mr-3 xs:w-[30px] xs:h-[30px]`} src='/icons/logo.jpg' alt='' />
                 </div>
@@ -35,7 +35,7 @@ function Navbar() {
                 </div>
             </div>
             :
-            <div className={`w-full h-[50px] bg-[#000] flex flex-row fixed z-[5]`}>
+            <div className={`w-full h-[50px] bg-[#000] flex flex-row fixed top-0 self-center z-[5]`}>
                 <div className={`w-1/2 h-full px-2 flex flex-row justify-start items-center`}>
                     <img className={`md:h-[40px] md:w-[40px] rounded-full mr-3 xs:w-[30px] xs:h-[30px]`} src='/icons/logo.jpg' alt='' />
                 </div>
