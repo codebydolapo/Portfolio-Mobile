@@ -1,6 +1,16 @@
-const SkillCard = () => {
+import skills from "../data/skills"
+
+const SkillCard = ({image, title}: any) => {
     return (
-        <div className="w-[15rem] h-[20rem] border-2 border-black rounded-lg m-2"></div>
+        <div className="md:w-[12rem] md:h-[17rem] rounded-lg md:m-4 p-2 flex flex-col shadow-xl xs:m-2 xs:w-[10rem] xs:h-[15rem]">
+            <div className="w-full h-[70%] flex items-center justify-center">
+                <img className={`w-[80%] `} alt='' src={image} />
+            </div>
+            <div className="w-full h-[30%] flex items-start justify-start relative">
+                <h1 className={`md:text-lg font-bold text-black xs:text-sm`}>{title}</h1>
+                <img className={` md:w-6 md:h-6 xs:w-5 absolute bottom-2 right-2`} alt='' src={"/icons/skills/check.png"} />
+            </div>
+        </div>
     )
 }
 
@@ -15,19 +25,13 @@ const Skills = () => {
                 <div className={`w-full h-[3rem] flex flex-row items-center justify-start px-5 border-b-2 border-grey md:pl-10 xs:pl-2 `}>
                     <h1 className={`md:text-3xl font-extrabold xs:text-xl text-[#000000] underline`}>My Skills</h1>
                 </div>
-                <div className="w-full h-full border-2 border-black flex flex-wrap items-center justify-center">
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
-<SkillCard/>
+                <div className="w-full h-full flex flex-wrap items-center justify-center">
+                    {skills.map(({image, title}: any)=>{
+                        return <SkillCard
+                        image = {image}
+                        title = {title}
+                        />
+                    })}
                 </div>
             </div>
         </div>

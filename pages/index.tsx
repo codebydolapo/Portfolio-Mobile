@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           title={"Blog Posts"}
           id={"blogPosts"}
         />
-        {/* <Skills /> */}
+        <Skills />
         <Footer />
       </div>
     </div>

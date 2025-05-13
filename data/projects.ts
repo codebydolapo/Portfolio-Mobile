@@ -23,6 +23,14 @@ const projects = [
         excerpt1: "Movo is a social media application, built using React Native/Expo",
         excerpt2: "It features a seamless, cross-platform frontend experience and Supabase as a robust, scalable backend solution"
     },
+    {
+        title: "Coming soon...",
+        image: "/images/agile_BLOG.jpg",
+        live_link: "",
+        publication_date: "2025",
+        excerpt1: "...",
+        excerpt2: "..."
+    },
     
 ]
 
