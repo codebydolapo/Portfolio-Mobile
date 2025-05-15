@@ -24,7 +24,7 @@ function About() {
             <div className={`md:w-[60%] md:h-full flex flex-col items-center justify-center xs:w-[100%] xs:h-[50%]`}>
                 <div className={`md:w-[50%] flex flex-col xs:w-[98%]`}>
                     <h1 className={`text-center text-[#1DA1F2] my-2 md:text-4xl font-extrabold xs:text-2xl`}>Welcome!</h1>
-                    <p className={`text-center text-black my-2 md:text-lg xs:text-sm`}>My name is <b className="text-[#1DA1F2]">Bashorun Dolapo</b>, and I am a <b className="text-[#1DA1F2]">React-Native developer</b> </p>
+                    <p className={`text-center text-black my-2 md:text-lg xs:text-sm`}>My name is <b className="text-[#1DA1F2]">Bashorun Dolapo</b>, and I am a <b className="text-[#1DA1F2]">Product-focused web/mobile software Engineer</b> </p>
                     <p className={`text-center text-black my-2 md:text-lg xs:text-sm`}>I have a burning passion for <b className="text-[#1DA1F2]">building products</b> that help others and solve real world problems.</p>
                     <p className={`text-center text-black my-2 md:text-lg xs:text-sm`}>
                         I have a <b className="text-[#1DA1F2]">keen eye for detail</b> and am looking forward to <b className="text-[#1DA1F2]">meeting user needs</b> with intuitive and user-friendly experiences.</p>
