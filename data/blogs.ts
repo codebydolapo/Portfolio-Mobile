@@ -1,5 +1,14 @@
 const blogs = [
     {
+        title: "What the Heck Is Middleware in A Node/Express.js Backend, And Why Should You Care?",
+        live_link: "https://medium.com/@bashorundolapo/what-the-heck-is-middleware-in-a-node-express-js-backend-and-why-should-you-care-a1ba27c164e5",
+        image: "/images/middleware.webp",
+        publication_date: "15 May, 2024",
+        excerpt1: `Middleware is exactly what it sounds like: Software that sits in the middle of two points.`,
+        excerpt2: `Think of middleware as a series of gatekeepers or checkpoints. Every time a request hits your server, it passes through as many middleware layers as you set up, before reaching your final route handler`,
+        featured: true
+    },
+    {
         title: "Real Estate With React Native—Everything That Went Into Building Homely",
         live_link: "https://medium.com/p/1ecb7975827c",
         image: "/images/homely.jpg",
